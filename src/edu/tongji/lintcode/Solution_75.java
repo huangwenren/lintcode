@@ -45,7 +45,7 @@ public class Solution_75 {
         // write your code here
         int left = 0;
         int right = A.length - 1;
-        int mid = -1;
+        int mid;
 
         while (left < right) {
             mid = (left + right) / 2;
